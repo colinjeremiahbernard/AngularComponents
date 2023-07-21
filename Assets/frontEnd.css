@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+.card {
+  width: 80%;
+  box-shadow: 4px;
+  border: 2px solid brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cardLeft, .cardRight {
+  border: 2px solid brown;
+  font-size: 20px;
+}
+.cardLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+.cardLeft > span {
+  font-weight: bold;
+  width: 700px;
+}
+img {
+  height: 150px;
+  width: 400px;
+}
+.cardLeft > a {
+  margin-top: 15px;
+  font-size: 25px;
+  color: purple;
+  text-decoration: none;
+  font-weight: 400px;
+} 
+.cardLeft > p {
+  color: gold;
+}
